@@ -6,13 +6,37 @@
         <fileDesc>
             <titleStmt>
                 <title> 
-                    Missa super voces musicales: Kyrie
+                    Josquin: Missa super voces musicales: Kyrie
                 </title>
             </titleStmt>
-            <pubStmt/>
+            <pubStmt>
+                <date>2018</date>
+                <identifier>Josquin</identifier>
+                <availability>
+                    <useRestrict>Creative Coomons ShareAlike: htpps://creativecommons.org/licens/by-sa/2.5/deed.de</useRestrict>
+                </availability>
+            </pubStmt>
+            <sourceDesc>
+                <source xml:id="header.s1">
+                    <identifier>1</identifier>
+                    <titleStmt>
+                        <title>Missa L'homme armé</title>
+                        <respStmt>
+                            <persName role="cmp">Josquin Desprez</persName>
+                        </respStmt>
+                    </titleStmt>
+                </source>
+            </sourceDesc>
         </fileDesc>
     </meiHead>
     <music>
+        <performance>
+            <recording begin="00:00:00.00" end="00:02:25.00" betype="time" n="completeWork">
+                <avFile targettype="youtube" target="https://www.youtube.com/watch?v=DSeFAKwdsmA"></avFile>
+                <clip begin="00:00:00.00" end="00:00:05.00" betype="time" n="m1" startid="#performance_m1"></clip>
+                <clip begin="00:00:05.00" end="00:00:10.00" betype="time" n="m2" startid="#performance_m2"></clip>
+            </recording>
+        </performance>
         <body>
             <mdiv>
                 <score>
@@ -51,7 +75,7 @@
                         </staffGrp>
                     </scoreDef>
                     <section>
-                        <measure n="1">
+                        <measure n="1" xml:id="performance_m1">
                             <staff n="1">
                                 <layer>
                                 <rest dur="breve"/>
@@ -74,7 +98,7 @@
                                 </layer>
                             </staff> 
                         </measure>
-                        <measure n="2">
+                        <measure n="2" xml:id="performance_m2">
                             <staff n="1">
                                 <layer>
                                     <rest dur="breve"/>
