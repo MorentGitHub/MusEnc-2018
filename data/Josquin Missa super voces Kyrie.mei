@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/music-encoding/music-encoding/master/schemata/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title> 
+                    Missa super voces musicales: Kyrie
+                </title>
+            </titleStmt>
+            <pubStmt/>
+        </fileDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef
+                        meter.count="3"
+                        meter.unit="1">
+                        <staffGrp symbol="bracket">
+                            <staffDef 
+                                lines="5" 
+                                clef.shape="G"
+                                clef.line="2"
+                                label="Superius"
+                                n="1"/>
+                            <staffDef 
+                                lines="5"
+                                clef.shape="G"
+                                clef.dis="8"
+                                clef.dis.place="below"
+                                clef.line="2"
+                                label="Altus"
+                                n="2"/>
+                            <staffDef 
+                                lines="5"
+                                clef.shape="G" 
+                                clef.dis="8"
+                                clef.dis.place="below"
+                                clef.line="2"
+                                label="Tenor"
+                                n="3"/>
+                            <staffDef 
+                                lines="5"
+                                clef.shape="F" 
+                                clef.line="4"
+                                label="Bassus"
+                                n="4"/>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
+                        <measure n="1">
+                            <staff n="1">
+                                <layer>
+                                <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer>
+                                    <note pname="d" oct="4" dur="breve"/>
+                                    <note pname="f" oct="4" dur="1"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer>
+                                <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="4">
+                                <layer>
+                                <note pname="d" oct="3" dur="breve" dots="1" />
+                                </layer>
+                            </staff> 
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer>
+                                    <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer>
+                                    <note pname="e" oct="4" dur="2"/>
+                                    <note pname="d" oct="4" dur="1"/>
+                                    <note pname="c" oct="4" dur="2"/>
+                                    <note pname="b" oct="3" dur="1"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer>
+                                    <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="4">
+                                <layer>
+                                    <note pname="g" oct="3" dur="breve" />
+                                    <note pname="g" oct="3" dur="1"/>
+                                </layer>
+                            </staff> 
+                        </measure>
+                        <measure n="3">
+                            <staff n="1">
+                                <layer>
+                                    <note pname="d" oct="4" dur="1"/>
+                                    <note pname="d" oct="4" dur="2"/>
+                                    <note pname="g" oct="4" dur="1"/>
+                                    <note pname="g" oct="4" dur="2"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer>
+                                    <note pname="a" oct="3" dur="2"/>
+                                    <note pname="b" oct="3" dur="2" dots="1"/>
+                                    <note pname="a" oct="3" dur="4"/>
+                                    <note pname="b" oct="3" dur="4"/>
+                                    <note pname="d" oct="4" dur="2"/>
+                                    <beam>
+                                    <note pname="c" oct="4" dur="8"/>
+                                    <note pname="b" oct="3" dur="8"/>
+                                    </beam>
+                                    <note pname="c" oct="4" dur="2"/>
+                                </layer>
+                            </staff>
+                            <staff n="3">
+                                <layer>
+                                    <rest dur="breve"/>
+                                </layer>
+                            </staff>
+                            <staff n="4">
+                                <layer>
+                                    <note pname="f" oct="3" dur="2" />
+                                    <note pname="g" oct="3" dur="2" dots="1"/>
+                                    <note pname="f" oct="3" dur="4" />
+                                    <note pname="e" oct="3" dur="4" />
+                                    <note pname="d" oct="3" dur="4" />
+                                    <note pname="e" oct="3" dur="1" />
+                                </layer>
+                            </staff> 
+                        </measure>
+                                    
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
